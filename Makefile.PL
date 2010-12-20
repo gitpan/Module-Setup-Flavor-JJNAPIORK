@@ -1,18 +1,15 @@
 #!/usr/bin/env perl
 
 use strict;
-use warnings;
-use inc::Module::Install 1.00;
+use warnings FATAL => 'all';
+use inc::Module::Install;
+
+requires 'Module::Setup' => '0.09';
+test_requires 'Test::More' => '0.96';
+
 all_from 'lib/Module/Setup/Flavor/JJNAPIORK.pm';
+require 'maint/Makefile.PL.include'
+  if $Module::Install::AUTHOR;
 
-requires 'Module::Setup::Flavor';
-test_requires 'Test::More';
-
-readme_markdown_from_pod;
-auto_set_repository;
-auto_set_homepage;
-auto_manifest;
-auto_license;
-auto_install;
 WriteAll;
 

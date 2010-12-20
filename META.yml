@@ -4,7 +4,7 @@ author:
   - 'John Napiorkowski C< <<jjnapiork@cpan.org>> >'
 build_requires:
   ExtUtils::MakeMaker: 6.42
-  Test::More: 0
+  Test::More: 0.96
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
@@ -20,10 +20,10 @@ no_index:
     - inc
     - t
 requires:
-  Module::Setup::Flavor: 0
+  Module::Setup: 0.09
   perl: 5.8.8
 resources:
   homepage: http://search.cpan.org/dist/Module-Setup-Flavor-JJNAPIORK/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jjn1056/Module-Setup-Flavor-JJNAPIORK.git
-version: 0.02
+version: 0.03
