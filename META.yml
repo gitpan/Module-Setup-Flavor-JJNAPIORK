@@ -20,10 +20,15 @@ no_index:
     - inc
     - t
 requires:
+  Module::Install: 1.00
+  Module::Install::AutoLicense: 0.08
+  Module::Install::Homepage: 0.01
+  Module::Install::ReadmeMarkdownFromPod: 0.03
+  Module::Install::Repository: 0.06
   Module::Setup: 0.09
   perl: 5.8.5
 resources:
   homepage: http://search.cpan.org/dist/Module-Setup-Flavor-JJNAPIORK/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jjn1056/Module-Setup-Flavor-JJNAPIORK.git
-version: 0.04
+version: 0.05
