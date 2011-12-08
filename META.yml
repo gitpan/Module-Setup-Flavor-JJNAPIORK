@@ -3,12 +3,13 @@ abstract: 'How I use Module::Setup'
 author:
   - 'John Napiorkowski C< <<jjnapiork@cpan.org>> >'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.62
   Test::More: 0.96
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.62
 distribution_type: module
-generated_by: 'Module::Install version 1.00'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.04'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,15 +21,10 @@ no_index:
     - inc
     - t
 requires:
-  Module::Install: 1.00
-  Module::Install::AutoLicense: 0.08
-  Module::Install::Homepage: 0.01
-  Module::Install::ReadmeMarkdownFromPod: 0.03
-  Module::Install::Repository: 0.06
   Module::Setup: 0.09
   perl: 5.8.5
 resources:
   homepage: http://search.cpan.org/dist/Module-Setup-Flavor-JJNAPIORK/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jjn1056/Module-Setup-Flavor-JJNAPIORK.git
-version: 0.05
+version: 0.06
