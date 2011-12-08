@@ -27,4 +27,4 @@ resources:
   homepage: http://search.cpan.org/dist/Module-Setup-Flavor-JJNAPIORK/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jjn1056/Module-Setup-Flavor-JJNAPIORK.git
-version: 0.06
+version: 0.07
